@@ -24,6 +24,12 @@ All information about the course will be posted here.
 ## News
 
 * **Jan 21** - Welcome back!  You should get started by reading [How to succeed in CS 101](success.html).
+* **Feb 11 - EXAM I**
+* **Mar 1,3 - NO CLASSES, WINTER BREAK**
+* **Mar 15 - EXAM II**
+* **Mar 24 - NO CLASS, SPRING BREAK**
+* **Apr 7 - EXAM III**
+* **May 5 - EXAM IV**
 
 <!--
 * **May 5** - The zipfile for [Assignment 6](assign/assign06.html) is missing a file, `submitToMarmoset.pl`, that is required to submit the assignment.  Please copy this file into your `CS101_Assign06` directory from any other CS 101 assignment or lab before you run `make submit`.

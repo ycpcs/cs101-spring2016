@@ -5,9 +5,7 @@ title: "Labs"
 
 This page lists the lab activities.
 
-Although labs are not graded, they are part of the quizzes, attendance,
-and participation component of the course grade.  Not completing
-and submitting the labs will negatively impact your course grade.
+Although labs are not graded, they are part of the attendance component of the course grade and as such must be submitted by the end of the day they are assigned.  Not completing and submitting the labs will negatively impact your course grade.
 
 > Date | Lab | File
 > ---- | --- | ----

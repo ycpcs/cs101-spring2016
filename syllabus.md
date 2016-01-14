@@ -52,9 +52,9 @@ Policies
 
 Your course grade will be determined as follows:
 
--   Homework (programming assignments): 15% **(\*)**
 -   Quizzes (in class): 10%
 -   Required CloudCoder exercises: 5%
+-   Homework (programming assignments): 15% **(\*)**
 -   Exams (4 midterms and 1 cumulative final exam, lowest score dropped): 70% **(&dagger;)**
 
 **(\*)** You must demonstrate significant effort on all homework assignments in order to pass the course. The very important Outcome CO12 (Use top-down design to decompose complex problems into simpler problems) cannot be assessed based on exams alone. This will be demonstrated via homework assignments. Failure to demonstrate this outcome on homework assignments will be grounds for failure even with a high exam average.
@@ -126,7 +126,7 @@ Students will work on programs during most class periods. At the end of the clas
 
 ### Attendance and Participation
 
-**Do not miss class!**  If you do not show significant effort on the lab assignment for the day, or if you are seen doing non-lab activities before finishing a lab, you will be considered absent. The first absence will result in a 1 percentage point deduction from your final grade. The total percentage point deduction for 2 or greater absences will be calculated using the following formula:
+**Do not miss class!**  If you do not attend class, show significant effort on the lab assignment by the end of the day, or if you are seen doing non-lab activities before finishing a lab, you will be considered absent. The first absence will result in a 1 percentage point deduction from your final grade. The total percentage point deduction for 2 or greater absences will be calculated using the following formula:
 
 > 2<sup>(<i>absences</i> - 1)</sup>
 

@@ -8,7 +8,7 @@ In this lab, you will learn how to use the cygwin/gcc environment to write, comp
 Getting Started
 ===============
 
-**(1)** Note that the first step will be slightly different, depending on whether you are using Linux (KEC 119) or Windows (any other KEC lab).
+**(1)** Note that the first step will be slightly different, depending on whether you are using Windows or Linux (note that KEC 119 has been converted to Windows, so that all KEC labs now have Windows PCs.
 
 **Windows**
 

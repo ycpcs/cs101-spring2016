@@ -12,7 +12,7 @@ Instructors:
 
 - Section 101: [Don Hake](http://faculty.ycp.edu/~djhake2/), <djhake2@ycp.edu>, Office hours MWF 10:00-11:00AM, TR 9:30-10:30AM, by appointment
 - Sections 102, 103: Morris Miller, <mmmiller@ycp.edu>, Office hours TBD
-- Section 104: [David Babcock](http://faculty.ycp.edu/~dbabcock/), <dbabcock@ycp.edu>, Office hours TBD
+- Section 104: [David Babcock](http://faculty.ycp.edu/~dbabcock/), <dbabcock@ycp.edu>, Office hours  M 2:00-3:00PM, T 1:30-3:00PM, W 8:30-10:00AM, R 8:30-9:30AM, or by appointment
 - Sections 105, 106: Deepti Jindal, <djindal@ycp.edu>, Office hours T 11:30AM-12:30PM, by appointment
 
 Course Description

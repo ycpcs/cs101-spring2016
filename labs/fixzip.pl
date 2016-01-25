@@ -32,7 +32,7 @@ while (<$ifh>) {
 
 # Some unknown software on the KEC Windows load
 # sets the GCC_EXEC_PREFIX environment variable, which
-# prevent's Cygwin's gcc/g++ from working correctly.
+# prevents Cygwin's gcc/g++ from working correctly.
 # Make sure it is unset when we invoke g++.
 CXX = unset GCC_EXEC_PREFIX && g++
 EOF

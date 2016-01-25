@@ -29,12 +29,12 @@ while (<$ifh>) {
 	if (/^\s*PROJECT_NUMBER\s*:?=/) {
 		print $ofh $_;
 		print $ofh <<"EOF";
-
-# Some unknown software on the KEC Windows load
-# sets the GCC_EXEC_PREFIX environment variable, which
-# prevents Cygwin's gcc/g++ from working correctly.
-# Make sure it is unset when we invoke g++.
-CXX = unset GCC_EXEC_PREFIX && g++
+\r
+# Some unknown software on the KEC Windows load\r
+# sets the GCC_EXEC_PREFIX environment variable, which\r
+# prevents Cygwin's gcc/g++ from working correctly.\r
+# Make sure it is unset when we invoke g++.\r
+CXX = unset GCC_EXEC_PREFIX && g++\r
 EOF
 	} elsif (/^\s*CXX\s+:?=/) {
 		print "Warning: not echoing assignment to CXX macro in $makefile\n";

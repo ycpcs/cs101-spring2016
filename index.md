@@ -24,7 +24,7 @@ All information about the course will be posted here.
 ## News
 
 * **Jan 21** - Welcome back!  You should get started by reading [How to succeed in CS 101](success.html).
-* **Feb 1** - [Assignment 1](assign/assign01.html) is due by 11:59 PM.
+* **Feb 3** - **UPDATE** [Assignment 1](assign/assign01.html) is due by 11:59 PM.
 * **Feb 11 - EXAM I**
 * **Mar 1,3 - NO CLASSES, WINTER BREAK**
 * **Mar 15 - EXAM II**

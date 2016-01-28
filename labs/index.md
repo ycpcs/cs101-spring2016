@@ -9,9 +9,9 @@ Although labs are not graded, they are part of the attendance component of the c
 
 > Date | Lab | File
 > ---- | --- | ----
-> Jan 21st | [Lab 1: Hello CS101!](lab01.html) | [CS101\_Lab01.zip](CS101_Lab01.zip)
-> Jan 26th | [Lab 2: Expensive Calculator](lab02.html) | [CS101\_Lab02.zip](CS101_Lab02.zip)
-> Jan 28th | [Lab 3: Math Functions](lab03.html) | n/a
+> Jan 28st | [Lab 1: Hello CS101!](lab01.html) | [CS101\_Lab01.zip](CS101_Lab01.zip)
+> Jan 28th | [Lab 2: Expensive Calculator](lab02.html) | [CS101\_Lab02.zip](CS101_Lab02.zip)
+> Feb 2nd | [Lab 3: Math Functions](lab03.html) | n/a
 > Feb 2nd | [Lab 4: Salary Calculator](lab04.html) | [CS101\_Lab04.zip](CS101_Lab04.zip)
 > Feb 4th | [Lab 5: Conditions reading/modifying exercise](lab05.html) | [CS101\_Lab05.zip](CS101_Lab05.zip)
 > Feb 9th | [Lab 6: Checking the Weather](lab06.html) | [CS101\_Lab06.zip](CS101_Lab06.zip)

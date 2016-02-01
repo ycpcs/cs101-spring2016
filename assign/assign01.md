@@ -5,7 +5,7 @@ title: "Assignment 1: Freefalling"
 
 Due: **Monday, Feb 1st by 11:59 PM**
 
-**Update** Due: **Wednesday, Feb 3rd by 11:59 PM**
+**Update** Due: **Friday, Feb 5th by 11:59 PM**
 
 Getting Started
 ===============

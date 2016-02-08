@@ -1,7 +1,5 @@
 baseurl: "http://ycpcs.github.io/cs101-spring2016"
-markdown: rdiscount
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 coursename: "CS 101"
 
-rdiscount:
-  extensions: [smart]

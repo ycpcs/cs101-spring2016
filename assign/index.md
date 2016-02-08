@@ -8,6 +8,7 @@ This page links to homework assignments.
 Assignment | File | Due
 ---------- | ---- | ---
 [Assignment 1: Freefalling](assign01.html) | [CS101\_Assign01.zip](CS101_Assign01.zip) | **UPDATE** Friday, Feb 5th by 11:59 PM
+[Assignment 2: Let's Make A Deal](assign02.html) | [CS101\_Assign02.zip](CS101_Assign02.zip) | Milestone 1: Wednesday, Feb 17th by 11:59 PM<br>Milestone 2: <strike>Friday, Feb 26th</strike>Wednesday, Feb 25th by 11:59 PM
 
 
 

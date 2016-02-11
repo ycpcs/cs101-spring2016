@@ -19,7 +19,7 @@ In class
 The in-class tutors are
 
 * Section 101: Joe Beck
-* Section 102: Ryan Vincent
+* Section 102: Joe Beck
 * Section 103: Austin Koehler
 * Section 104: Kyle Meyers
 * Section 105: Kyle Meyers

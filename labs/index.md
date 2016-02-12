@@ -12,11 +12,11 @@ Although labs are not graded, they are part of the attendance component of the c
 > Jan 28th | [Lab 1: Hello CS101!](lab01.html) | [CS101\_Lab01.zip](CS101_Lab01.zip)
 > Feb 2nd  | [Lab 2: Expensive Calculator](lab02.html) | [CS101\_Lab02.zip](CS101_Lab02.zip)
 > Feb 4th | [Lab 3: Math Functions](lab03.html) | n/a
-> Feb 9th | [Lab 4: Salary Calculator](lab04.html) | [CS101\_Lab04.zip](CS101_Lab04.zip)
+> Feb 11th | [Lab 4: Salary Calculator](lab04.html) | [CS101\_Lab04.zip](CS101_Lab04.zip)
 > Feb 11th | [Lab 5: Conditions reading/modifying exercise](lab05.html) | [CS101\_Lab05.zip](CS101_Lab05.zip)
-> Feb 11th | [Lab 6: Checking the Weather](lab06.html) | [CS101\_Lab06.zip](CS101_Lab06.zip)
+> Feb 16th | [Lab 6: Checking the Weather](lab06.html) | [CS101\_Lab06.zip](CS101_Lab06.zip)
 > Feb 18th | [Lab 7: For loops](lab07.html) | n/a
-> Feb 23rd | [Lab 8: Gone loopy](lab08.html) | [CS101\_Lab08.zip](CS101_Lab08.zip)
+> Feb 25th | [Lab 8: Gone loopy](lab08.html) | [CS101\_Lab08.zip](CS101_Lab08.zip)
 > Feb 25th | [Lab 9: Fancy Rectangle](lab09.html) | [CS101\_Lab09.zip](CS101_Lab09.zip)
 > Mar 8th | [Lab 10: Array Exercises](lab10.html) | n/a
 > Mar 10th | [Lab 11: More Array Exercises](lab11.html) | n/a

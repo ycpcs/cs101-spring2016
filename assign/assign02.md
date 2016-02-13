@@ -11,7 +11,7 @@ title: "Assignment 2: Let's Make A Deal"
 Getting Started
 ===============
 
-Start by downloading [CS101\_Assign02.zip](CS101_Assign02.zip), saving it in the **CS101** directory within your home directory.
+Start by downloading [CS101\_Assign02.zip](src/CS101_Assign02.zip), saving it in the **CS101** directory within your home directory.
 
 Start a **Cygwin Bash Shell** (or Linux terminal, or MacOS terminal) and run the following commands:
 

@@ -56,7 +56,7 @@ Nesting an if statement in a loop
 
 Sometimes you may want to write a loop in which particular executions of the loop body are executed in a different way than others. One way to achieve this is to nest an **if**/**else** statement inside the body of the loop.
 
-For example, here is a code fragment that prints a "ruler" of a specified length using text characters, where every 10th character is a vertical bar ("|"), while all of the other characters are hyphens ("-"):
+For example, here is a code fragment that prints a "ruler" of a specified length using text characters, where every 10th character is a vertical bar ("\|"), while all of the other characters are hyphens ("-"):
 
 {% highlight cpp %}
 int length;

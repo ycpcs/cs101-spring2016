@@ -29,6 +29,7 @@ All information about the course will be posted here.
 * **Feb 23 -  UPDATE EXAM I**
 * **Mar 1,3 - NO CLASSES, WINTER BREAK**
 * **Mar 9** -  **UPDATE** [Assignment 2 Milestone 2](assign/assign02.html) is due by 11:59 PM.
+* **Mar 21** -  **UPDATE** [Assignment 3](assign/assign03.html) is due by 11:59 PM.
 * **Mar 22 - EXAM II**
 * **Mar 24 - NO CLASS, SPRING BREAK**
 * **Apr 14 - EXAM III**

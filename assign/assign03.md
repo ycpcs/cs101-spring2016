@@ -12,7 +12,7 @@ Primary course learning outcomes supported by this assignment:
 
 # Getting Started
 
-Start by downloading [CS101\_Assign03.zip](CS101_Assign03.zip), saving it in the CS101 directory within your home directory.
+Start by downloading [CS101\_Assign03.zip](src/CS101_Assign03.zip), saving it in the CS101 directory within your home directory.
 
 Start a Cygwin Bash Shell (or Linux terminal, or MacOS terminal) and run the following commands:
 

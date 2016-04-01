@@ -11,6 +11,8 @@ title: "Practice Exams"
 
 [Exam 2, Spring 2014 Solutions](cs101-spring2014-exam2-solutions.pdf)
 
+[Exam 2, Spring 2016 Solutions](cs101-spring2016-exam02-solutions.pdf), [Exam 2, Spring 2016 Programming Solutions](cs101-spring2016-exam02-progsol.pdf)
+
 
 <!--
 [Exam 2, Spring 2014](cs101-spring2014-exam2.pdf), [Exam 2 programming zipfile](CS101_Exam2.zip) &mdash; Note that you can ignore Questions 2, 3, 5, and 12, since they cover functions.  *However*, please do try questions 8 and 10 from practice exam 1.

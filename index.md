@@ -32,7 +32,7 @@ All information about the course will be posted here.
 * **Mar 21** - [Assignment 3](assign/assign03.html) is due by 11:59 PM.
 * **Mar 22 - EXAM II**
 * **Mar 24 - NO CLASS, SPRING BREAK**
-* **Apr 8** - [Assignment 4](assign/assign04.html) is due by 11:59 PM.
+* **Apr 11** - **UPDATE** [Assignment 4](assign/assign04.html) is due by 11:59 PM.
 * **Apr 14 - EXAM III**
 * **May 5 - EXAM IV**
 

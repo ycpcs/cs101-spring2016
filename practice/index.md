@@ -13,6 +13,9 @@ title: "Practice Exams"
 
 [Exam 2, Spring 2016 Solutions](cs101-spring2016-exam02-solutions.pdf), [Exam 2, Spring 2016 Programming Solutions](cs101-spring2016-exam02-progsol.zip)
 
+[Exam 3, Spring 2014](cs101-spring2014-exam3.pdf), [Exam 3 programming zipfile](CS101_Exam3.zip) &mdash; Note that you can ignore Questions 7-12, and 14, since they cover pointers and structs.  *However*, please do try questions 2, 3, 5, 10, and 12 from practice exam 2, solutions are provided in the exam 2 solution file.
+
+[Exam 3, Spring 2014 Solutions](cs101-spring2014-exam3-solutions.pdf)
 
 <!--
 [Exam 2, Spring 2014](cs101-spring2014-exam2.pdf), [Exam 2 programming zipfile](CS101_Exam2.zip) &mdash; Note that you can ignore Questions 2, 3, 5, and 12, since they cover functions.  *However*, please do try questions 8 and 10 from practice exam 1.

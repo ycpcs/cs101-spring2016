@@ -34,6 +34,8 @@ All information about the course will be posted here.
 * **Mar 24 - NO CLASS, SPRING BREAK**
 * **Apr 11** - **UPDATE** [Assignment 4](assign/assign04.html) is due by 11:59 PM.
 * **Apr 14 - EXAM III**
+* **Apr 27** - [Assignment 5 Milestone 1](assign/assign05.html) is due by 11:59 PM.
+* **May 4** - [Assignment 5 Milestone 2](assign/assign05.html) is due by 11:59 PM.
 * **May 5 - EXAM IV**
 
 <!--

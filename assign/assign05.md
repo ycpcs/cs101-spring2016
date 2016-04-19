@@ -39,7 +39,7 @@ Your Task
 
 Since many of you have either played or at least seen the retro arcade game [Pacman](http://en.wikipedia.org/wiki/Pacman), the purpose of this assignment is to write a similar game using terminal graphics. The object of the game is to move your player around a board collecting pellets and power-ups while avoiding the 4 ghosts. A sample executable is included in the .zip file and can be run in Cygwin by
 
-    ./ChompSol.exe
+    ./ChompSol
 	
 (there is also a sample executable compiled for Mac as ChompSolMac but it may be a bit erratic).
 

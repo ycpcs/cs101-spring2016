@@ -104,8 +104,8 @@ like this when you run the program:
 
 > ![image](images/assign05/drawBoard.png)
 
-Milestone 1 - Due Tuesday April 27th
-------------------------------------
+Milestone 1 - Due Wednesday April 27th
+--------------------------------------
 
 The first milestone will add the player and allow them to move around the board.
 
@@ -146,7 +146,7 @@ Next we need to incorporate the player into the scene.
 
 At this point you should be able to move the player around the board "gobbling" up the pellets and power-ups.
 	
-Milestone 2 - Due Wednesday, May 3rd
+Milestone 2 - Due Wednesday, May 4th
 ------------------------------------
 
 The final milestone incorporates the ghosts to complete the game play. The ghosts will simply be represented by an *array* of **Player**\ 's that uses a different function to determine their desired velocities (basic AI).
@@ -196,7 +196,7 @@ Grading Criteria
 	
 > **10 points** - update necessary **Scene** functions
 	
-**Milestone 2 - Due Wednesday May 3rd by 11:59PM - 75 points**
+**Milestone 2 - Due Wednesday May 4th by 11:59PM - 75 points**
 
 > **5 points** - add fields for ghosts to **Scene** and for score to **Player**
 	

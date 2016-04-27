@@ -165,7 +165,7 @@ Note the **draw_Player()**, **check_Player_Move()**, and **update_Player()** fun
 
 -   Add code to **initialize_Player()** to initialize the score field.
 
--   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **ghost_AI()** which takes a **Player** structure as a reference parameter. The function should simply keep the current velocities the same with a probablity of 75% (unless *both* the current velocities are 0), otherwise the velocities should be set by generating random values of +1 or -1 for *either* dx or dy (but not both as the ghosts cannot move diagonally). Similarly to **player_AI()**, the function should then call **check_Player_Move()** to determine the actual velocity for the ghost, i.e. make sure it is not trying to move into a wall and/or adjust for going through the tunnel.
+-   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **ghost_AI()** which takes a **Player** structure as a reference parameter and a 2D **int** array for the board. The function should simply keep the current velocities the same with a probablity of 75% (unless *both* the current velocities are 0), otherwise the velocities should be set by generating random values of +1 or -1 for *either* dx or dy (but not both as the ghosts cannot move diagonally). Similarly to **player_AI()**, the function should then call **check_Player_Move()** to determine the actual velocity for the ghost, i.e. make sure it is not trying to move into a wall and/or adjust for going through the tunnel.
 
 *Scene functions*
 

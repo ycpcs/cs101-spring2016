@@ -3,9 +3,9 @@ layout: default
 title: "Assignment 5: Chomp, Chomp, Chomp"
 ---
 
-**Milestone 1: Due Friday, April 29th by 11:59 PM**
+**Milestone 1: Due Friday, July 22nd by 11:59 PM**
 
-**Milestone 2: Due Thursday, May 5th by 11:59 PM**
+**Milestone 2: Due Wednesday, Aug 3rd by 11:59 PM**
 
 Getting Started
 ===============
@@ -86,14 +86,14 @@ constant for the object at that location as either:
 The function will also return the number of pellets (**num_pellets**)
 and number of power-ups (**num_powerups**) the board contains through reference parameters.
 
-**initialize_Scene** will be modified in the milestones to perform other
+**initialize_Scene()** will be modified in the milestones to perform other
 initializations for the player and ghosts.
  
 *Drawing the board*
 
-The **render_Scene()** function then takes a **Scene** as a reference parameter and calls the **draw_Board()** function passing the **board** field from the parameter.
+The **render_Scene()** function then takes a **Scene** as a reference parameter and calls the **draw_Board()** function passing the **board** field from the **Scene *s** parameter.
 
-The **draw_Board()** function takes a 2D array of **int**\ 's representing the board and renders the board on the screen. Symbolic constants have been defined for the characters to render as:
+The **draw_Board()** function takes a 2D array of **int**'s representing the board and renders the board on the screen. Symbolic constants have been defined for the characters to render as:
 
 >-   **WALL_CHAR** - a blank space
 >-   **PELLET_CHAR** - a period
@@ -104,8 +104,8 @@ like this when you run the program:
 
 > ![image](images/assign05/drawBoard.png)
 
-Milestone 1 - Due Friday April 29th
---------------------------------------
+Milestone 1 - Due Friday July 22nd
+----------------------------------
 
 The first milestone will add the player and allow them to move around the board.
 
@@ -122,13 +122,13 @@ You will need to first create a structure named **Player** and then add the foll
 
 We will need to add functions to initialize, draw and update the fields of the player.
 
--   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **initialize_Player()** which takes a **Player** structure as a reference parameter, two **int** parameters for the starting x and y location, two **int** parameters for the starting dx and dy velocities, one **char** parameter for the player's character symbol, and one **int** parameter for the player's color. The function should initialize all the fields of the **Player** structure with the corresponding parameters.
+-   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **initialize_Player()** which takes a **Player** structure as a pointer parameter, two **int** parameters for the starting x and y location, two **int** parameters for the starting dx and dy velocities, one **char** parameter for the player's character symbol, and one **int** parameter for the player's color. The function should initialize all the fields of the **Player** structure with the corresponding parameters. **Hint:** Since we have a *pointer* to a **Player**, we need to use **->** to access the fields.  
 
--   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **draw_Player()** which takes a **Player** structure as a reference parameter. The function should move the cursor to the player's current location and draw the player using their symbol and color (from the fields in the structure).
+-   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **draw_Player()** which takes a **Player** structure as a pointer parameter. The function should move the cursor to the player's current location, set the color for the player, and draw the player using their symbol (from the fields in the structure). **Hint:** Use the terminal graphics commands, see [Lab 17](../labs/lab17.html) for the commands, and note that *y* is the *row* and *x* is the *col*. Since we have a *pointer* to a **Player**, we need to use **->** to access the fields.
 
--   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **player_AI()** which takes a **Player** structure as a reference parameter and a 2D array of **int**\ 's for the board. The function should call the **cons_get_keypress()** terminal graphics function which checks to see if the user has pressed a key and if so, returns the key that was pressed. Symbolic constants are defined for the arrow keys as **UP_ARROW**, **DOWN_ARROW**, **LEFT_ARROW**, and **RIGHT_ARROW** (in **Console.h**). Based on the key that was pressed, the player's velocity fields should be set appropriately (or set to 0 if no key was pressed). The function should then call **check_Player_Move()** (discussed below) to validate desired move.
+-   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **player_AI()** which takes a **Player** structure as a reference parameter and a 2D array of **int**'s for the board (use **WIDTH** and **HEIGHT** for the dimensions). The function should call the **cons_get_keypress()** terminal graphics function which checks to see if the user has pressed a key and if so, returns an **int** for the key that was pressed (or -1 if no key was pressed). Symbolic constants are defined for the arrow keys as **UP_ARROW**, **DOWN_ARROW**, **LEFT_ARROW**, and **RIGHT_ARROW** (in **Console.h**). Based on the key that was pressed, the player's *velocity* fields, i.e. **dx** and **dy** should be set appropriately (or set to 0 if no key was pressed). The function should then call **check_Player_Move()** (discussed below) to validate desired move. **Hint:** Start by setting both **dx** and **dy** to 0. Then left and right movements should set **dx**, and up and down movements should set **dy**. Since we have a *pointer* to a **Player**, we need to use **->** to access the fields.
 
--   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **check_Player_Move()** which takes a **Player** structure as a reference parameter and a 2D array of **int**\ 's for the board. The function should determine if the player is attempting to move into a wall (setting the velocities to 0 if they are) or moving through the tunnel which is at the edge of the board with y location given by the symbolic constant **TUNNEL_Y**. If they have entered the tunnel, the player's position should be changed to the opposite side of the board.
+-   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **check_Player_Move()** which takes a **Player** structure as a reference parameter and a 2D array of **int**'s for the board (use **WIDTH** and **HEIGHT** for the dimensions). The function should determine if the player is attempting to move into a wall (setting the velocities to 0 if they are) or moving through the tunnel which is at the edge of the board with y location given by the symbolic constant **TUNNEL_Y**. If they have entered the tunnel, the player's position should be changed to the opposite side of the board. **Hint:** Determine the player's desired new position and check if that location on the board is **WALL**.
 	
 -   Add a function to **Player.cpp** (placing the prototype in **Player.h**) named **update_Player()** which takes a **Player** structure as a reference parameter. The function should update the player's current location based on their current velocity.
 
@@ -146,7 +146,7 @@ Next we need to incorporate the player into the scene.
 
 At this point you should be able to move the player around the board "gobbling" up the pellets and power-ups.
 	
-Milestone 2 - Due Thursday, May 5th
+Milestone 2 - Due Wednesday, Aug 3rd
 ------------------------------------
 
 The final milestone incorporates the ghosts to complete the game play. The ghosts will simply be represented by an *array* of **Player**\ 's that uses a different function to determine their desired velocities (basic AI).
@@ -180,7 +180,7 @@ At this point you will have a playable game, but the ghosts will move extremely 
 Grading Criteria
 ----------------
 
-**Milestone 1 - Due Friday April 29th by 11:59PM - 75 points**
+**Milestone 1 - Due Friday July 22nd by 11:59PM - 75 points**
 
 > **5 points** - add **Player** structure with necessary fields and add field to **Scene** for player
 	
@@ -196,7 +196,7 @@ Grading Criteria
 	
 > **10 points** - update necessary **Scene** functions
 	
-**Milestone 2 - Due Thursday May 5th by 11:59PM - 75 points**
+**Milestone 2 - Due Wednesday Aug 3rd by 11:59PM - 75 points**
 
 > **5 points** - add fields for ghosts to **Scene** and for score to **Player**
 	
